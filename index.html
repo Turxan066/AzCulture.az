@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Template</title>
+    <link rel="icon" type="x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/canvas.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+</head>
+<!-- Demo styles -->
+<style>
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    /* background: #eee; */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<!-- Header Start  -->
+    <header>
+        <div class="header_top">
+            <div class="header_top_container container">
+                <div class="logo_social_info">
+
+                  <!-- Logo Start  -->
+                    <div class="logo">
+                        <img src="images/logo.svg" alt="">
+                    </div>
+                  <!-- Logo Start  -->
+                    <ul class="social">
+                        <li><a class="social_icon facebook" href="#"></a></li>
+                        <li><a class="social_icon instagram" href="#"></a></li>
+                        <li><a class="social_icon telegram" href="#"></a></li>
+                        <li><a class="social_icon youtube" href="#"></a></li>
+                    </ul>
+                    <div class="info">Haqqımızda</div>
+                    <!-- <div class="contact">Əlaqə</div> -->
+                </div>
+                <div class="right_logos">
+                    <div class="first">
+                        <img src="images/logo2.png" alt="">
+                        <span>
+                            Gəncliyin Sosial İqtisadi İnkişafına Yardım İctimai Birliyi
+                        </span>
+                    </div>
+                    <div class="second">
+                        <img src="images/logo3.png" alt="">
+                        <span>
+                            Azərbaycan Respublikasının Qeyri-Hökümət Təşkilatlarına Dövlət Dəstəyi Agentliyi
+                        </span>
+                    </div>
+                </div>
+                <div class="search_input_respon search_close">
+                  <input placeholder="Axtar..." type="text">
+                </div>
+                <div class="respon_buttons">
+                  <button class="search_respon"><img src="images/src_icon.svg" alt="#"></button>
+                  <button class="menu_respon">
+                    <img src="images/menu.svg" alt="">
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="header_bottom_container container">
+                <nav class="navigation_menu">
+                    <ul>
+                        <li><a href="#">ANA SƏHİFƏ </a></li>
+                        <li><a href="#">TEATRLARIMIZ</a></li>
+                        <li><a href="#">MUSİQİMİZ</a></li>
+                        <li><a href="#">BİZİM KİNOMUZ</a></li>
+                        <li><a href="#">MUĞAMIMIZ</a></li>
+                        <li><a href="#">XALÇAÇILIQDA BİZ</a></li>
+                        <li><a href="#">MULTİKULTURALİZM</a></li>
+                        <li><a href="#">QARABAĞ MƏDƏNİYYƏTİ</a></li>
+                        <li><a href="#">QARABAĞDAKI İRSİMİZ</a></li>
+                        <li><a href="#">DİGƏR</a></li>
+                    </ul>
+                </nav>
+                    <!-- <div class="language">Eng</div> -->
+                <div class="search"></div>
+            </div>
+        </div>
+        <!-- Canvas Mobile Menu Start -->
+        <div class="nav_mobile close">
+          <div class="nav_mobile_top">
+            <ul>
+              <li><a class="social_icon facebook" href="#"></a></li>
+              <li><a class="social_icon instagram" href="#"></a></li>
+              <li><a class="social_icon telegram" href="#"></a></li>
+              <li><a class="social_icon youtube" href="#"></a></li>
+          </ul>
+          <button class="nav_mobile_x">
+            <img src="images/menux.svg" alt="">
+          </button>
+          </div>
+          <div class="nav_mobile_bottom_logos">
+            <div class="first">
+              <img src="images/logo2.png" alt="">
+              <span>
+                  Gəncliyin Sosial İqtisadi İnkişafına Yardım İctimai Birliyi
+              </span>
+          </div>
+          </div>
+          <div class="nav_mobile_bottom_logos">
+            <div class="first">
+              <img src="images/logo3.png" alt="">
+              <span>
+                Azərbaycan Respublikasının Qeyri-Hökümət Təşkilatlarına Dövlət Dəstəyi Agentliyi
+              </span>
+          </div>
+          </div>
+          <div class="nav_mobile_bottom_menu">
+            <ul>
+              <li><a href="#">ANA SƏHİFƏ </a></li>
+              <li><a href="#">TEATRLARIMIZ</a></li>
+              <li><a href="#">MUSİQİMİZ</a></li>
+              <li><a href="#">BİZİM KİNOMUZ</a></li>
+              <li><a href="#">MUĞAMIMIZ</a></li>
+              <li><a href="#">XALÇAÇILIQDA BİZ</a></li>
+              <li><a href="#">MULTİKULTURALİZM</a></li>
+              <li><a href="#">QARABAĞ MƏDƏNİYYƏTİ</a></li>
+              <li><a href="#">QARABAĞDAKI İRSİMİZ</a></li>
+              <li><a href="#">ŞUŞA 2022</a></li>
+              <li><a href="#">TARİXDƏ BİZ</a></li>
+              <li><a href="#">ETNOQRAFİYAMIZ</a></li>
+              <li><a class="menu_gray" href="#">Haqqımızda</a></li>
+              <li><a class="menu_gray" href="#">Əlaqə</a></li>
+          </ul>
+          </div>
+        </div>
+        <!-- Canvas Mobile Menu End -->   
+    </header>
+<!-- Header End -->
+
+<!-- Main Start  -->
+    <main>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="section_one">
+              <div class="row">
+                <div class="col-6">
+                  <div class="section_image">
+                    <img src="images/dan-formsma-9UZ3TPpjbOo-unsplash.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                    <div class="section_content">
+                      <div class="content_title">American Boy</div>
+                      <div class="content_text">In an interview with Blues & Soul, Estelle explained to Pete Lewis how the song came about, she said: “We were just messing about in the studio, joking around, and John (Legend) just said to me ‘Why don’t you write a song about meeting an American boy?’. So I was like ‘Well, that’s pretty easy’ because I have a lot of male friends out there in New York. And I unwittingly ended up creating a new ladies’ anthem!”
+                        When Estelle was asked about Kanye’s on the track, she added: “Kanye basically just brought his own cheeky self to the track, his own sense of humor. At first he was like ‘How can you rap over a dance beat?’ and now he’s done it!”</div>
+                      <div class="more">Ətraflı oxu </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="section_one">
+              <div class="row">
+                <div class="col-6">
+                  <div class="section_image">
+                    <img src="images/AdobeStock_46591084_Preview.jpeg" alt="">
+                  </div>
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                    <div class="section_content">
+                      <div class="content_title">A Story from Brazil</div>
+                      <div class="content_text">“Once you show a girl her superpower, certainly she will use it to empower others. I had the privilege to first meet my own superpower while attending robotics classes at school when I was 6 years old, where my teachers stimulated me and my friends to propose solutions to our community problems using technology. In high school, I met my first mentor, Andrea Bittencourt. Together we found the robotics team Autobot and started giving robotics classes on public schools. Through education, my superpower was finally causing a meaningful impact – I was using my tech skills to empower others. Nowadays, I study Electrical Engineering. Studying engineering has always been natural for me. But as a black woman, I started asking myself, “why am I the only black woman in these robotics tournament and science fairs?” Or “why have I never had a black teacher in tech subjects?” Worries that took me to an important decision: I will fight against this gender and race inequality. I didn’t want to be a black woman in tech alone.</div>
+                      <div class="more">Ətraflı oxu </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="section_one">
+              <div class="row">
+                <div class="col-6">
+                  <div class="section_image">
+                    <img src="images/gleb-albovsky-sBO2-mtclIw-unsplash.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                    <div class="section_content">
+                      <div class="content_title">Everything You Need to Know About Flower Girls</div>
+                      <div class="content_text">Flower girls are adorable additions to any wedding. Even if kids aren't your thing, it's hard to deny the cuteness that comes with a little tot all dolled up in tulle throwing petals down the aisle.
+                        What Is a Flower Girl? A flower girl is typically the youngest person in the wedding party and precedes the bride down the aisle. The tradition dates back to ancient Rome, where the flower girl carried wheat and herbs for the bride and groom.Flower girls aren't a necessity for your big day, and we'll go into alternatives later, but if you decide to incorporate the tradition into your wedding, there might be some questions that arise. Like, who should the flower girl be? What should they wear? And how old should they be? Ahead, we talk to event planner Roxanne Bellamy to get the answers to these questions and more.</div>
+                      <div class="more">Ətraflı oxu </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="section_one">
+              <div class="row">
+                <div class="col-6">
+                  <div class="section_image">
+                    <img src="images/raamin-ka-Cxag6Z_s8oI-unsplash.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                    <div class="section_content">
+                      <div class="content_title">Coca-Cola Girls : An Advertising Art History</div>
+                      <div class="content_text">As sparkling and effervescent as the soft drink she symbolizes, the Coca-Cola girl has lived for more than a century as the perfect American beauty. In Coca-Cola Girls, the first ever art book the Company has licensed for publication, the author traces significant Company mileposts while underscoring them with lavish illustrations. Coca-Cola Girls covers the way celebrities, such as Clark Gable and Jean Harlow, lent their faces and cachet to the product. Gil Elvgren painted luscious pin-up girls, and even Santa Claus got in the act. For decades, the Coca-Cola girl has lived gracefully in the overalls of a World War II factory worker and the sleek swimsuit of a sunbather. Dedicated to the Coca-Cola collector and art connoisseur, Coca-Cola Girls compels each to pause and refresh! with some of the worlds most recognizable art.</div>
+                      <div class="more">Ətraflı oxu </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="section_one">
+              <div class="row">
+                <div class="col-6">
+                  <div class="section_image">
+                    <img src="images/maarten-van-den-heuvel-gZXx8lKAb7Y-unsplash.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                    <div class="section_content">
+                      <div class="content_title">
+                        Golden Gate Bridge</div>
+                      <div class="content_text">The Golden Gate Bridge is an iconic structure connecting the city of San Francisco to Marin County, California. It spans almost two miles across the Golden Gate, the narrow strait where San Francisco Bay opens to meet the Pacific Ocean. The dream of connecting San Francisco to its northern neighbors became a reality when construction commenced in 1933. Given the chance for steady employment amid the Great Depression, construction crews braved treacherous conditions as the roadway and towers took shape over open water. The Golden Gate Bridge, opened to the public in 1937, has endured as a picture-perfect landmark and an engineering marvel.</div>
+                      <div class="more">Ətraflı oxu </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="section_one">
+              <div class="row">
+                <div class="col-6">
+                  <div class="section_image">
+                    <img src="images/noah-buscher-8A7fD6Y5VF8-unsplash.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                    <div class="section_content">
+                      <div class="content_title">The Orange Girl</div>
+                      <div class="content_text">The Orange Girl (Appelsinpiken) is a Norwegian film released in February 2009. It is based on a book by author Jostein Gaarder; a book translated to 43 languages.[2] In addition to the Norwegian production company Sandrew Metronome, the German company Tradewind Pictures and the Spanish Jaleo Films are also part of the project.The film is based on a 2003 novel by the same name, written by Norwegian author Jostein Gaarder. The main character is the young boy Georg who one day finds a long letter from his deceased father in his old red stroller. The letter tells, among other things, about the father's youthful love for the mysterious "orange girl" (appelsinpiken), and leaves a mystery for Georg to solve. The story leaps back and forth between the father's letters to the future, the young boy's thoughts and the events of the father's life.</div>
+                      <div class="more">Ətraflı oxu </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section_two">
+        <div class="container">
+          <div class="row">
+            <div class="swiper_items">
+              <div class="swiper_arrows">
+                <div class="previous"></div>
+                <div class="next"></div>
+              </div>
+              <div class="swiper_pagination">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section_card">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <div class="card_box">
+                <div class="card_title">TEATRLARIMIZ</div>
+                <div class="card_image">
+                  <img src="images/teatr.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card_box">
+                <div class="card_title">MUSİQİMİZ</div>
+                <div class="card_image">
+                  <img src="images/musiqimiz.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card_box">
+                <div class="card_title">BİZİM KİNOMUZ</div>
+                <div class="card_image">
+                  <img src="images/bizimkinomuz.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card_box">
+                <div class="card_title">MUĞAMIMIZ</div>
+                <div class="card_image">
+                  <img src="images/mugam.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section_movie">
+        <div class="container">
+          <div class="movie_header">BİZİM KİNOMUZ</div>
+          <div class="movie_card_body">
+            <div class="row">
+              <div class="col-3">
+                <div class="movie_image">
+                  <img src="images/WONDER_FIRST_LOOK_090921_CB-2 (1).png" alt="">
+                </div>
+                <div class="movie_img_title">Florence Pugh-un Növbəti Dövr Dramı Üşütücü Əsl Hekayədən İlham Almışdır</div>
+                <div class="movie_img_text">Florens Pyu 2017-ci ildə Nortumberlend kəndlərində çəkilmiş Viktoriya dövrünə aid triller filmi olan Ledi Makbetin gənc qatil ...</div>
+                <div class="movie_date">
+                  <span>BİZİM KİNOMUZ</span>
+                  <span>16 İyun 2022 / 10:08</span>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="movie_image">
+                  <img src="images/MCDPOOF_ZX038.png" alt="">
+                </div>
+                <div class="movie_img_title">2022 Oskar Namizədləri Bitdi və İnternetdə Bir Top Var</div>
+                <div class="movie_img_text">Həyat nə qədər qəribə olsa da, pandemiyanın iki ili keçsə də, hamımızın ümid edə biləcəyimiz bir neçə şey var:</div>
+                <div class="movie_date">
+                  <span>BİZİM KİNOMUZ</span>
+                  <span>16 İyun 2022 / 10:08</span>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="movie_image">
+                  <img src="images/2HA351W.png" alt="">
+                </div>
+                <div class="movie_img_title">Penelope Cruz Ailə, İmposter Sindromu və Paralel Analardakı Karyerasının Ən Yaxşı Dönüşündən danışır</div>
+                <div class="movie_img_text">Penelope Cruz üçün Pedro Almodovarın ən son ürək bulandıran melodramının mərkəzindəki həyasız fotoqraf Janis rolu ...</div>
+                <div class="movie_date">
+                  <span>BİZİM KİNOMUZ</span>
+                  <span>16 İyun 2022 / 10:08</span>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="movie_image">
+                  <img src="images/Culture_TPOTD_Netflix.png" alt="">
+                </div>
+                <div class="movie_img_title">2022 Oskar Namizədlərini necə izləmək olar</div>
+                <div class="movie_img_text">2021-ci il filmlər üçün qəribə bir il oldu. Yaxşı, filmlərin özləri üçün deyil, filmə çəkilmək üçün. Warner Bros. kimi studiya ....</div>
+                <div class="movie_date">
+                  <span>BİZİM KİNOMUZ</span>
+                  <span>16 İyun 2022 / 10:08</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section_theatre">
+        <div class="container">
+          <div class="theatre_header">TEATRLARIMIZ</div>
+          <div class="row">
+            <div class="col-3">
+              <div class="theatre_image">
+                <img src="images/152900.png" alt="">
+              </div>
+              <div class="theatre_img_title">Cənnət Meydanı Tam Broadway Castinqini Elan Edib</div>
+              <div class="theatre_img_text">Martın 15-də Ethel Barrimor Teatrında təqdimatlara başlayan Cənnət Meydanının qarşıdan gələn Broadway istehsalı üçün ta...</div>
+              <div class="theatre_date">
+                <span>TEATRLARIMIZ</span>
+                <span>02.11.2022 / 15:38</span>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="theatre_image">
+                <img src="images/152906.png" alt="">
+              </div>
+              <div class="theatre_img_title">Qızıl Qızlar Şousu! - Kukla parodiyası Broadwaydən kənarda qayıdış təşkil edir</div>
+              <div class="theatre_img_text">Həyat nə qədər qəribə olsa da, pandemiyanın iki ili keçsə də, hamımızın ümid edə biləcəyimiz bir neçə şey var:</div>
+              <div class="theatre_date">
+                <span>TEATRLARIMIZ</span>
+                <span>02.11.2022 / 15:38</span>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="theatre_image">
+                <img src="images/152935.png" alt="">
+              </div>
+              <div class="theatre_img_title">İcmal: Hugh Jackman The Music Man filmində baş roldadır. Bu Baxış Həqiqətən Önəmlidirmi?</div>
+              <div class="theatre_img_text">Gəlin təqib edək, eləmi? Meredith Willsonun Hugh Jackman və Sutton Foster-in Qış Bağçası Teatrında baş rollarda oynadığı ...</div>
+              <div class="theatre_date">
+                <span>TEATRLARIMIZ</span>
+                <span>02.11.2022 / 15:38</span>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="theatre_image">
+                <img src="images/about1.png" alt="">
+              </div>
+              <div class="theatre_img_title">Disney-in Ələddin Yeni Şimali Amerika Turuna başlayır</div>
+              <div class="theatre_img_text">11-23 oktyabr tarixlərində Nyu-Yorkun Schenectady şəhərindəki Proctors-da Disneyin Ələddinin yeni Şimali Amerika ...</div>
+              <div class="theatre_date">
+                <span>TEATRLARIMIZ</span>
+                <span>02.11.2022 / 15:38</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section_music">
+        <div class="container">
+          <div class="music_header">MUSİQİMİZ</div>
+          <div class="music_body">
+            <div class="row">
+              <div class="col-6">
+                <div class="music_image">
+                  <img src="images/152900.png" alt="">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="music_content">
+                  <div class="music_content_title">Laura Kuenssberg: Putin set UK on search for new friends</div>
+                  <div class="music_content_text"> 
+                    Ukrainian forces struck the Russian-occupied city of Melitopol over the weekend, opening a new front in Kyiv’s fight to reclaim land in the south of the country and underlining the importance of longer-range weaponry.</div>
+                    <div class="music_date">
+                      <span>MUSİQİMİZ</span>
+                      <span>02.11.2022 / 15:38</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="music_card_body">
+            <div class="row">
+              <div class="col-3">
+                <div class="music_card_img">
+                  <img src="images/221128-F-XX000-0002.jpeg" alt="">
+                </div>
+                <div class="music_card_title">2 injured in Russian drone attacks in Kyiv</div>
+                <div class="music_card_text">Ukrainian children are asking Saint Nicholas, or Santa Claus, for weapons, air defense systems and victory this Christmas, Ukrainian President Volodymyr Zelensky said on Monday, the day the country celebrates Saint Nicholas Day.
+                “On Saint Nicholas Day today … Russian terrorists gave a gift to Ukrainian children with new strikes,” Zelensky said in a virtual address to the Joint Expeditionary Force (JEF) leaders’ summit. </div>
+                <div class="music_card_date">
+                  <span>MUSİQİMİZ</span>
+                  <span>02.11.2022 / 15:38</span>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="music_card_img">
+                  <img src="images/tom-ritson-DBYV_V5spes-unsplash.jpg" alt="">
+                </div>
+                <div class="music_card_title">2 injured in Russian drone attacks in Kyiv</div>
+                <div class="music_card_text">Ukrainian children are asking Saint Nicholas, or Santa Claus, for weapons, air defense systems and victory this Christmas, Ukrainian President Volodymyr Zelensky said on Monday, the day the country celebrates Saint Nicholas Day.
+                “On Saint Nicholas Day today … Russian terrorists gave a gift to Ukrainian children with new strikes,” Zelensky said in a virtual address to the Joint Expeditionary Force (JEF) leaders’ summit. </div>
+                <div class="music_card_date">
+                  <span>MUSİQİMİZ</span>
+                  <span>02.11.2022 / 15:38</span>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="music_card_img">
+                  <img src="images/charlie-larkman-fbG0QTZasKg-unsplash.jpg" alt="">
+                </div>
+                <div class="music_card_title">2 injured in Russian drone attacks in Kyiv</div>
+                <div class="music_card_text">Ukrainian children are asking Saint Nicholas, or Santa Claus, for weapons, air defense systems and victory this Christmas, Ukrainian President Volodymyr Zelensky said on Monday, the day the country celebrates Saint Nicholas Day.
+                “On Saint Nicholas Day today … Russian terrorists gave a gift to Ukrainian children with new strikes,” Zelensky said in a virtual address to the Joint Expeditionary Force (JEF) leaders’ summit. </div>
+                <div class="music_card_date">
+                  <span>MUSİQİMİZ</span>
+                  <span>02.11.2022 / 15:38</span>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="music_card_img">
+                  <img src="images/dan-formsma-9UZ3TPpjbOo-unsplash.jpg" alt="">
+                </div>
+                <div class="music_card_title">2 injured in Russian drone attacks in Kyiv</div>
+                <div class="music_card_text">Ukrainian children are asking Saint Nicholas, or Santa Claus, for weapons, air defense systems and victory this Christmas, Ukrainian President Volodymyr Zelensky said on Monday, the day the country celebrates Saint Nicholas Day.
+                “On Saint Nicholas Day today … Russian terrorists gave a gift to Ukrainian children with new strikes,” Zelensky said in a virtual address to the Joint Expeditionary Force (JEF) leaders’ summit. </div>
+                <div class="music_card_date">
+                  <span>MUSİQİMİZ</span>
+                  <span>02.11.2022 / 15:38</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section_mugam">
+        <div class="container">
+          <div class="mugam_header">MUĞAMIMIZ</div>
+          <div class="row">
+            <div class="col-4">
+              <div class="mugam_image">
+                <img src="images/WONDER_FIRST_LOOK_090921_CB-2 (1).png" alt="">
+              </div>
+              <div class="mugam_title">“Muğam axşamları” adlı layihəsi yenidən təqdim olunacaq</div>
+              <div class="mugam_text">Muğam sənətimizin fəlsəfəsini gələcək nəsillərə çatdırmaq məqsədilə reallaşan layihəyə tamaşaçılar böyük maraq göstərməkdədir.</div>
+              <div class="mugam_date">
+                <span>MUĞAMIMIZ</span>
+                <span>02.11.2022 / 15:38</span>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mugam_image">
+                <img src="images/WONDER_FIRST_LOOK_090921_CB-2 (1).png" alt="">
+              </div>
+              <div class="mugam_title">“Muğam axşamları” adlı layihəsi yenidən təqdim olunacaq</div>
+              <div class="mugam_text">Muğam sənətimizin fəlsəfəsini gələcək nəsillərə çatdırmaq məqsədilə reallaşan layihəyə tamaşaçılar böyük maraq göstərməkdədir.</div>
+              <div class="mugam_date">
+                <span>MUĞAMIMIZ</span>
+                <span>02.11.2022 / 15:38</span>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mugam_image">
+                <img src="images/2HA351W.png" alt="">
+              </div>
+              <div class="mugam_title">“Muğam axşamları” adlı layihəsi yenidən təqdim olunacaq</div>
+              <div class="mugam_text">Muğam sənətimizin fəlsəfəsini gələcək nəsillərə çatdırmaq məqsədilə reallaşan layihəyə tamaşaçılar böyük maraq göstərməkdədir.</div>
+              <div class="mugam_date">
+                <span>MUĞAMIMIZ</span>
+                <span>02.11.2022 / 15:38</span>
+              </div>
+            </div>
+          </div>
+          <div class="carpet_body">
+            <div class="row">
+              <div class="col-3">
+                <div class="carpet_box">
+                  <div class="carpet_title">XALÇAÇILIQDA BİZ</div>
+                  <div class="carpet_image">
+                    <img src="images/xalca.svg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="carpet_box">
+                  <div class="carpet_title">MULTUKULTURALİZM</div>
+                  <div class="carpet_image">
+                    <img src="images//etno.svg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="carpet_box">
+                  <div class="carpet_title">QARABAĞ MƏDƏNİYYƏTİ</div>
+                  <div class="carpet_image">
+                    <img src="images/qarabag.svg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="carpet_box">
+                  <div class="carpet_title">QARABAĞDAKI İRSİMİZ</div>
+                  <div class="carpet_image">
+                    <img src="images/xaribulbul.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section_our_carpet">
+        <div class="container">
+            <div class="our_carpet_header">XALÇAÇILIQDA BİZ</div>
+            <div class="our_carp_body">
+              <div class="row">
+                <div class="col-3">
+                  <div class="our_carp_image">
+                    <img src="images/usarmy.jpg" alt="">
+                  </div>
+                  <div class="our_carp_title">Azərbaycanın qədim xalçası türk ordusuna minnətdarlıq əlaməti olaraq toxunub</div>
+                  <div class="our_carp_text">Azərbaycanın ən qədim sənətlərindən biri olan xalçaçılıq qeyri-adi zənginliyi və ornamental motivlərinin müxtəlifliyi ilə ...</div>
+                  <div class="our_carp_date">
+                    <span>XALÇAÇILIQDA BİZ</span>
+                    <span>02.11.2022 / 15:38</span>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="our_carp_image">
+                    <img src="images/charlie-larkman-fbG0QTZasKg-unsplash.jpg" alt="">
+                  </div>
+                  <div class="our_carp_title">Azərbaycanın qədim xalçası türk ordusuna minnətdarlıq əlaməti olaraq toxunub</div>
+                  <div class="our_carp_text">Azərbaycanın ən qədim sənətlərindən biri olan xalçaçılıq qeyri-adi zənginliyi və ornamental motivlərinin müxtəlifliyi ilə ...</div>
+                  <div class="our_carp_date">
+                    <span>XALÇAÇILIQDA BİZ</span>
+                    <span>02.11.2022 / 15:38</span>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="our_carp_image">
+                    <img src="images/tom-ritson-DBYV_V5spes-unsplash.jpg" alt="">
+                  </div>
+                  <div class="our_carp_title">Azərbaycanın qədim xalçası türk ordusuna minnətdarlıq əlaməti olaraq toxunub</div>
+                  <div class="our_carp_text">Azərbaycanın ən qədim sənətlərindən biri olan xalçaçılıq qeyri-adi zənginliyi və ornamental motivlərinin müxtəlifliyi ilə ...</div>
+                  <div class="our_carp_date">
+                    <span>XALÇAÇILIQDA BİZ</span>
+                    <span>02.11.2022 / 15:38</span>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="our_carp_image">
+                    <img src="images/biden-austin_hpEmbed_20210306-232444_3x2_992.jpg" alt="">
+                  </div>
+                  <div class="our_carp_title">Official Says Fighting Remains Intense in the Donbas</div>
+                  <div class="our_carp_text">The United States is working with Allies and partners to support Ukraine in their fight for sovereignty and freedom. The U.S. has provided Ukraine with billions of dollars in security assistance since the beginning of Russia’s unprovoked assault on Feb. 24.</div>
+                  <div class="our_carp_date">
+                    <span>XALÇAÇILIQDA BİZ</span>
+                    <span>02.11.2022 / 15:38</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="section_video">
+        <div class="container">
+          <div class="video_header">video</div>
+          <div class="row">
+            <div class="col-6">
+              <div class="video_left">
+                <div class="video_img">
+                  <img src="images/maarten-van-den-heuvel-gZXx8lKAb7Y-unsplash.jpg" alt="">
+                </div>
+                <div class="video_title">Putin says Russia is conducting military exercises in Belarus -<span>VİDEO</span></div>
+              </div>
+              <div class="video_text"> 
+                Russian President Vladimir Putin said Monday the Russian military is currently conducting military exercises on the territory of Belarus as part of efforts to protect "the safety of our countries." 
+                Speaking alongside Belarus President Alexander Lukashenko in Minsk, Putin said Russia and Belarus will continue to cooperate closely in the military sphere, and exchange and develop military equipment and weapons. </div>
+                <div class="video_date">
+                  <span>BİZİM KİNOMUZ</span>
+                  <span>02.11.2022 / 15:38</span>
+                </div>
+            </div>
+            <div class="col-6">
+              <div class="video_left">
+                <div class="video_img">
+                  <img src="images/2021-lamborghini-huracan-evo-mmp-1-1600293029.jpg" alt="">
+                </div>
+                <div class="video_title">World Cup champion Argentina returns home to a jubilant Buenos Aires
+                  -<span>VİDEO</span></div>
+              </div>
+              <div class="video_text"> 
+                Captain Lionel Messi stepped off the plane first, holding the gold trophy aloft, followed by his triumphant team onto a red carpet at the airport, greeted by reporters, officials and a live band.</div>
+                <div class="video_date">
+                  <span>BİZİM KİNOMUZ</span>
+                  <span>02.11.2022 / 15:38</span>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video_category">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="category_box">QARABAĞ MƏDƏNİYYƏTİ</div>
+              <div class="category_img">
+                <img src="images/gleb-albovsky-sBO2-mtclIw-unsplash.jpg" alt="">
+              </div>
+              <div class="cat_vid_box">
+                <div class="category_video_title">British Airways Resolves  Glitch That Grounded Flights for Hours</div>
+                  <div class="category_video_title">Air Force grounds B-2 stealth bomber fleet after aircraft catches fire during emergency landing</div>
+                  <div class="category_video_title">A Million Shells and More: Pentagon Revs Up Ukraine Weapons Aid and Bolsters Stockpiles</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="category_box">QARABAĞ MƏDƏNİYYƏTİ</div>
+              <div class="category_img">
+                <img src="images/arthur-osipyan-BET_3dBYpYk-unsplash.jpg" alt="">
+              </div>
+              <div class="cat_vid_box">
+                  <div class="category_video_title">Australia Names Ex-Prime Minister Kevin Rudd as Ambassador to US</div>
+                  <div class="category_video_title">Pentagon awards Raytheon $1.2B bid to supply Ukraine with advanced surface-to-air missile systems</div>
+                  <div class="category_video_title">EU Gas Price Cap Would Have Been Triggered Over 40 Days This Year</div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="category_box">QARABAĞ MƏDƏNİYYƏTİ</div>
+              <div class="category_img">
+                <img src="images/anthony-fomin-ZXNrB_A8AQI-unsplash.jpg" alt="">
+              </div>
+              <div class="cat_vid_box">
+                  <div class="category_video_title">US Lawmakers Release Huge Spending Bill Before Year-End Deadline</div>
+                  <div class="category_video_title">
+                    Pentagon’s Latest Ukraine Contracts Tally Jumps by $2 Billion Latest DoD tally updates US restock, direct Ukraine contracts
+                  </div>
+                  <div class="category_video_title">Ukraine Gets IMF Nod for Non-Cash Program, Paving Way for Aid</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section_photo">
+        <div class="container">
+          <div class="photo_header">FOTO</div>
+          <div class="row">
+            <div class="col-4">
+              <div class="photo_img">
+                <img src="images/Secretary-of-Defense-Austin-and-Chairman-of-the-Joint-Chiefs-of-Staff-General-Milley-Press-Conference-scaled.jpeg" alt="">
+              </div>
+              <div class="photo_title">Amazon Agrees to EU Antitrust Truce in Marketplace Data Probe</div>
+              <div class="photo_text">
+                Putin Makes Rare Trip to Ally Belarus
+                Unmute Russian leader Vladimir Putin held talks in Belarus with President Alexander Lukashenko on his first visit in more than three years to his ally in the war against Ukraine. Kay Bailey Hutchison, former US Ambassador to NATO, talks about Putin’s strategy and the US continuing to send monetary aid to Ukraine on “Balance of Power.”Source: Bloomberg</div>
+                <div class="photo_date">
+                  <span>FOTO</span>
+                  <span>20 May 2022 / 10:32</span>
+                </div>
+            </div>
+            <div class="col-4">
+              <div class="photo_img">
+                <img src="images/biden-austin_hpEmbed_20210306-232444_3x2_992.jpg" alt="">
+              </div>
+              <div class="photo_title">Musk Narrows Voting on Twitter Policy to Blue Members After Poll</div>
+              <div class="photo_text">
+                Putin Makes Rare Trip to Ally Belarus
+                Unmute Russian leader Vladimir Putin held talks in Belarus with President Alexander Lukashenko on his first visit in more than three years to his ally in the war against Ukraine. Kay Bailey Hutchison, former US Ambassador to NATO, talks about Putin’s strategy and the US continuing to send monetary aid to Ukraine on “Balance of Power.”Source: Bloomberg</div>
+                <div class="photo_date">
+                  <span>FOTO</span>
+                  <span>20 May 2022 / 10:32</span>
+                </div>
+            </div>
+            <div class="col-4">
+              <div class="photo_img">
+                <img src="images/2021-lamborghini-huracan-evo-mmp-1-1600293029.jpg" alt="">
+              </div>
+              <div class="photo_title">Amazon Agrees to EU Antitrust Truce in Marketplace Data Probe</div>
+              <div class="photo_text">
+                Putin Makes Rare Trip to Ally Belarus
+                Unmute Russian leader Vladimir Putin held talks in Belarus with President Alexander Lukashenko on his first visit in more than three years to his ally in the war against Ukraine. Kay Bailey Hutchison, former US Ambassador to NATO, talks about Putin’s strategy and the US continuing to send monetary aid to Ukraine on “Balance of Power.”Source: Bloomberg</div>
+                <div class="photo_date">
+                  <span>FOTO</span>
+                  <span>20 May 2022 / 10:32</span>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+<!-- Main End -->
+
+<!-- Footer Start  -->
+    <footer>
+      <div class="footer_full">
+        <div class="container">
+          <div class="footer_top">
+            <div class="footer_top_container">
+              <div class="logo_and_right_logo">
+                <div class="footer_logo">
+                  <img src="images/logo_footer.svg" alt="">
+                </div>
+                <div class="footer_right_logo">
+                  <div class="left_logo">
+                    <div class="ftr_logo_img">
+                      <img src="images/logo2.png" alt="">
+                    </div>
+                    <div class="ftr_logo_info">Gəncliyin Sosial İqtisadi İnkişafına Yardım İctimai Birliyi</div>
+                  </div>
+                  <div class="right_logo">
+                    <div class="ftr_right_img">
+                      <img src="images/logo3.png" alt="">
+                    </div>
+                    <div class="ftr_right_info">
+                      Azərbaycan Respublikasının Qeyri-Hökümət Təşkilatlarına Dövlət Dəstəyi Agentliyi
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_menu_sect">
+            <div class="row">
+                <div class="col-6">
+                  <div class="footer_menu_left">
+                    <div class="ftr_menu_left_info">
+                      “Azculture.az” mədəniyyət və incəsənət portalı olaraq fəaliyyət göstərməkdədir. Portal Gəncliyin Sosial-İqtisadi İnkişafına Yardım İctimai Birliyi ilə Azərbaycan Respublikasının Qeyri-Hökumət Təşkilatlarına Dövlət Dəstəyi Agentliyinin birgə layihəsi əsasında ərsəyə gətirilmişdir.
+                    </div>
+                    <div class="ftr_social">
+                      <ul>
+                        <li><a class="ftr_facebook" href="#"></a></li>
+                        <li><a class="ftr_instagram" href="#"></a></li>
+                        <li><a class="ftr_telegram" href="#"></a></li>
+                        <li><a class="ftr_youtube" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 footer_menu_responsive">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="footer_menu_list">
+                        <ul>
+                          <li><a href="#">ANA SƏHİFƏ </a></li>
+                          <li><a href="#">TEATRLARIMIZ</a></li>
+                          <li><a href="#">MUSİQİMİZ</a></li>
+                          <li><a href="#">BİZİM KİNOMUZ</a></li>
+                          <li><a href="#">MUĞAMIMIZ</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="footer_menu_list">
+                        <ul>
+                          <li><a href="#">XALÇAÇILIQDA BİZ</a></li>
+                          <li><a href="#">MULTİKULTURALİZM</a></li>
+                          <li><a href="#">QARABAĞ MƏDƏNİYYƏTİ</a></li>
+                          <li><a href="#">QARABAĞDAKI İRSİMİZ</a></li>
+                          <li><a href="#">ŞUŞA 2022</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="footer_menu_list">
+                        <ul>
+                          <li><a href="#">TARİXDƏ BİZ</a></li>
+                          <li><a href="#">ETNOQRAFİYAMIZ</a></li>
+                          <li><a href="#">Haqqımızda</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_copyright">
+					© 2022 azculture.az Müəllif hüquqları qorunur. Məlumatdan istifadə etdikdə istinad mütləqdir.
+					Məlumat internet səhifələrində istifadə edildikdə müvafiq keçidin qoyulması tələb olunur.
+				</div>
+      </div>
+    </footer>
+<!-- Footer End -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    loop:true,
+    speed:3500,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
